@@ -1,4 +1,16 @@
-# Microsoft Web Deploy
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>webdeploy</id>
+    <title>Web Deployment Tool</title>
+    <version>3.6.0</version>
+    <authors>Microsoft</authors>
+    <owners>Marcin Boojko</owners>
+    <summary>The Web Deployment Tool simplifies migration, management and deployment of IIS Web servers, Web applications and Web sites.</summary>
+    <description>
+    # Microsoft Web Deploy
 
 ## Description
 
@@ -30,13 +42,13 @@ The Web Deployment Tool enables you to package configuration and content of your
 
 ### Direct
 
-```cmd
+```
 choco install webdeploy -y
 ```
 
 ### YAML (The Foreman puppelabs/chocolatey module)
 
-```yaml
+```
 webdeploy:
   ensure: latest
   uninstall_options: "--force --all-versions"
@@ -45,7 +57,27 @@ webdeploy:
 
 or
 
-```yaml
+```
 webdeploy:
   ensure: latest
 ```
+
+    </description>
+    <projectUrl>https://www.iis.net/learn/publish/using-web-deploy/introduction-to-web-deploy</projectUrl>
+    <packageSourceUrl>https://github.com/marcinbojko/webdeploy</packageSourceUrl>
+    <docsUrl>https://www.iis.net/learn/install/installing-publishing-technologies/installing-and-configuring-web-deploy</docsUrl>
+    <iconUrl>https://dl.dropboxusercontent.com/u/6066664/choco/logo/microsoft.png</iconUrl>
+    <bugTrackerUrl>https://forums.iis.net/1144.aspx</bugTrackerUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <mailingListUrl></mailingListUrl>-->
+    <tags>microsoft web deploy iis web server admin</tags>
+    <copyright>Microsoft</copyright>
+    <licenseUrl>https://www.microsoft.com/en-US/download/details.aspx?id=43717</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://azure.microsoft.com/en-us/blog/web-deploy-3-6-beta-released/</releaseNotes>
+  </metadata>
+    <files>
+      <file src="tools\**" target="tools" />
+      <file src="icons\**" target="icons" />
+    </files>
+</package>
