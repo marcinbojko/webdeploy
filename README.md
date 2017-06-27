@@ -17,6 +17,12 @@ The Web Deployment Tool enables you to package configuration and content of your
 
 ## Changelog
 
+### 2017-06-27 Build 3.6.20170627
+
+* version changed to reflect Microsoft's changes
+* SHA256 - WebDeploy_x86_en-US.msi   - 5a2176f4571948b362396b6c80ebf8404a9c8ab6cb91fb778ea065c65a666561[https://www.virustotal.com/pl/file/5a2176f4571948b362396b6c80ebf8404a9c8ab6cb91fb778ea065c65a666561/analysis/1498566580/](https://www.virustotal.com/pl/file/5a2176f4571948b362396b6c80ebf8404a9c8ab6cb91fb778ea065c65a666561/analysis/1498566580/)
+* SHA256 - WebDeploy_amd64_en-US.msi - 721d9c3b8416518c0bb8a440e9d70ea927da151b9c3d428a1b04e49cffcdc484[https://www.virustotal.com/pl/file/721d9c3b8416518c0bb8a440e9d70ea927da151b9c3d428a1b04e49cffcdc484/analysis/1498566020/](https://www.virustotal.com/pl/file/721d9c3b8416518c0bb8a440e9d70ea927da151b9c3d428a1b04e49cffcdc484/analysis/1498566020/)
+
 ### 2017-04-19 Build 3.6
 
 * initial build
