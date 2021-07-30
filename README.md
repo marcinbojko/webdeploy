@@ -17,6 +17,11 @@ The Web Deployment Tool enables you to package configuration and content of your
 
 ## Changelog
 
+### 2021-07-29 Build 3.6.20210729
+
+* version changed to reflect Microsoft's changes
+* removed clutter from install script
+
 ### 2017-06-27 Build 3.6.20170627
 
 * version changed to reflect Microsoft's changes

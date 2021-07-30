@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>webdeploy</id>
     <title>Web Deployment Tool</title>
-    <version>3.6.20170627</version>
+    <version>3.6.20210729</version>
     <authors>Microsoft</authors>
     <owners>Marcin Boojko</owners>
     <summary>The Web Deployment Tool simplifies migration, management and deployment of IIS Web servers, Web applications and Web sites.</summary>
@@ -28,6 +28,11 @@ The Web Deployment Tool enables you to package configuration and content of your
 * Supports 32/64-bit version
 
 ## Changelog
+
+### 2021-07-29 Build 3.6.20210729
+
+* version changed to reflect Microsoft's changes
+* removed clutter from install script
 
 ### 2017-06-27 Build 3.6.20170627
 
@@ -72,7 +77,7 @@ webdeploy:
     <projectUrl>https://www.iis.net/learn/publish/using-web-deploy/introduction-to-web-deploy</projectUrl>
     <packageSourceUrl>https://github.com/marcinbojko/webdeploy</packageSourceUrl>
     <docsUrl>https://www.iis.net/learn/install/installing-publishing-technologies/installing-and-configuring-web-deploy</docsUrl>
-    <iconUrl>https://dl.dropboxusercontent.com/u/6066664/choco/logo/microsoft.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/marcinbojko/webdeploy/c19cf45c465c011b2fb684d75a524e2ceee2d9cc/logo/microsoft.jpg</iconUrl>
     <bugTrackerUrl>https://forums.iis.net/1144.aspx</bugTrackerUrl>
     <!--<projectSourceUrl></projectSourceUrl>
     <mailingListUrl></mailingListUrl>-->
@@ -84,6 +89,5 @@ webdeploy:
   </metadata>
     <files>
       <file src="tools\**" target="tools" />
-      <file src="icons\**" target="icons" />
     </files>
 </package>
