@@ -59,7 +59,7 @@ webdeploy:
     <copyright>Microsoft</copyright>
     <licenseUrl>https://www.microsoft.com/en-US/download/details.aspx?id=43717</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://azure.microsoft.com/en-us/blog/web-deploy-3-6-beta-released/</releaseNotes>
+    <releaseNotes>https://github.com/marcinbojko/webdeploy/blob/master/CHANGELOG.md</releaseNotes>
   </metadata>
     <files>
       <file src="tools\**" target="tools" />
