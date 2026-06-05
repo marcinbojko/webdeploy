@@ -4,8 +4,8 @@
 
 - updated to Web Deploy 4.0 (internal version 10.0.2001, released 2025-08-13)
 - fixed install script (stray empty `$url` was blanking the x86 download URL)
-- URL - WebDeploy_x86_en-US.msi - https://download.microsoft.com/download/0/1/D/01DC28EA-638C-4A22-A57B-4CEF97755C6C/WebDeploy_x86_en-US.msi
-- URL - WebDeploy_amd64_en-US.msi - https://download.microsoft.com/download/0/1/D/01DC28EA-638C-4A22-A57B-4CEF97755C6C/WebDeploy_amd64_en-US.msi
+- URL - WebDeploy_x86_en-US.msi - <https://download.microsoft.com/download/0/1/D/01DC28EA-638C-4A22-A57B-4CEF97755C6C/WebDeploy_x86_en-US.msi>
+- URL - WebDeploy_amd64_en-US.msi - <https://download.microsoft.com/download/0/1/D/01DC28EA-638C-4A22-A57B-4CEF97755C6C/WebDeploy_amd64_en-US.msi>
 - SHA256 - WebDeploy_x86_en-US.msi - 9942825da7e31e8dc8c5d981930a375fe5533b361fbc9bfbce7226cb46432404
 - SHA256 - WebDeploy_amd64_en-US.msi - 2150f9d1ab67e1b7b63559fb977ba9adc49f2b064fe2669a2e70d313a36b9a3d
 
