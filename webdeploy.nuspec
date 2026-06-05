@@ -31,22 +31,6 @@ Simplify the planning of your IIS 7.0 to IIS 8.0 migrations by determining incom
 choco install webdeploy -y
 ```
 
-### YAML (The Foreman puppelabs/chocolatey module)
-
-```
-webdeploy:
-  ensure: latest
-  uninstall_options: "--force --all-versions"
-  provider: chocolatey
-```
-
-or
-
-```
-webdeploy:
-  ensure: latest
-```
-
     </description>
     <projectUrl>https://www.iis.net/learn/publish/using-web-deploy/introduction-to-web-deploy</projectUrl>
     <packageSourceUrl>https://github.com/marcinbojko/webdeploy</packageSourceUrl>
