@@ -13,7 +13,7 @@ Consider buying me a coffee if you like my work. All donations are appreciated. 
 
 ## Description
 
-The Web Deployment Tool simplifies the migration, management and deployment of IIS Web servers, Web applications and Web sites.
+The Web Deployment Tool simplifies the migration, management and deployment of IIS Web servers, Web applications and sites.
 Administrators can use command-line scripting with the Web Deployment Tool to synchronize IIS 6.0, IIS 7.0 and IIS 8.0 servers or to migrate an IIS 6.0 and IIS 7.0 servers to IIS 8.0.
 The Web Deployment Tool also enables administrators and delegated users to use IIS Manager to deploy ASP.NET and PHP applications to an IIS 7.0 and later servers.
 Migrate Web applications between IIS 6.0, IIS 7.0 and IIS8.0 with ease
