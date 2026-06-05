@@ -1,5 +1,16 @@
 # Microsoft Web Deploy
 
+![Chocolatey](https://img.shields.io/badge/Chocolatey-orange)
+![Windows2016](https://img.shields.io/badge/Windows-2016-blue)
+![Windows2019](https://img.shields.io/badge/Windows-2019-blue)
+![Windows2022](https://img.shields.io/badge/Windows-2022-blue)
+![Windows10](https://img.shields.io/badge/Windows-10-lightblue)
+![Windows11](https://img.shields.io/badge/Windows-11-lightblue)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/marcinbojko)
+
+Consider buying me a coffee if you like my work. All donations are appreciated. All donations will be used to pay for pipeline running costs
+
 ## Description
 
 The Web Deployment Tool simplifies the migration, management and deployment of IIS Web servers, Web applications and Web sites. Administrators can use command-line scripting with the Web Deployment Tool to synchronize IIS 6.0, IIS 7.0 and IIS 8.0 servers or to migrate an IIS 6.0 and IIS 7.0 servers to IIS 8.0. The Web Deployment Tool also enables administrators and delegated users to use IIS Manager to deploy ASP.NET and PHP applications to an IIS 7.0 and later servers.
@@ -12,30 +23,10 @@ The Web Deployment Tool enables you to package configuration and content of your
 
 ## Features
 
-* Install and uninstall via Chocolatey
-* Supports 32/64-bit version
+- Install and uninstall via Chocolatey
+- Supports 32/64-bit version
 
-## Changelog
-
-### 2021-07-29 Build 3.6.20210729
-
-* version changed to reflect Microsoft's changes
-* removed clutter from install script
-
-### 2017-06-27 Build 3.6.20170627
-
-* version changed to reflect Microsoft's changes
-* SHA256 - WebDeploy_x86_en-US.msi   - 5a2176f4571948b362396b6c80ebf8404a9c8ab6cb91fb778ea065c65a666561[https://www.virustotal.com/pl/file/5a2176f4571948b362396b6c80ebf8404a9c8ab6cb91fb778ea065c65a666561/analysis/1498566580/](https://www.virustotal.com/pl/file/5a2176f4571948b362396b6c80ebf8404a9c8ab6cb91fb778ea065c65a666561/analysis/1498566580/)
-* SHA256 - WebDeploy_amd64_en-US.msi - 721d9c3b8416518c0bb8a440e9d70ea927da151b9c3d428a1b04e49cffcdc484[https://www.virustotal.com/pl/file/721d9c3b8416518c0bb8a440e9d70ea927da151b9c3d428a1b04e49cffcdc484/analysis/1498566020/](https://www.virustotal.com/pl/file/721d9c3b8416518c0bb8a440e9d70ea927da151b9c3d428a1b04e49cffcdc484/analysis/1498566020/)
-
-### 2017-04-19 Build 3.6
-
-* initial build
-* version 3.6
-* SHA256 - WebDeploy_x86_en-US.msi   - 0aaee0b66455c2b1e51d07e657960fbf1ae8ba65314ef79f9001f64cff689001 - [https://www.virustotal.com/en/file/0aaee0b66455c2b1e51d07e657960fbf1ae8ba65314ef79f9001f64cff689001/analysis/](https://www.virustotal.com/en/file/0aaee0b66455c2b1e51d07e657960fbf1ae8ba65314ef79f9001f64cff689001/analysis/)
-* SHA256 - WebDeploy_amd64_en-US.msi - c0369a7dc11a3faa78a12ce77ea393d9fe75c44273ba532cbf9c2e1fe5ee1768 - [https://www.virustotal.com/en/file/c0369a7dc11a3faa78a12ce77ea393d9fe75c44273ba532cbf9c2e1fe5ee1768/analysis/1480073278/](https://www.virustotal.com/en/file/c0369a7dc11a3faa78a12ce77ea393d9fe75c44273ba532cbf9c2e1fe5ee1768/analysis/1480073278/)
-* tested with install/upgrade over older versions (3.5.2)
-* tested with uninstalling webdeploy after upgrade from older versions (3.5.2)
+See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ## Usage
 
