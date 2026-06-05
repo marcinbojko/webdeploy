@@ -31,6 +31,7 @@ jobs:
       package_name: "webdeploy" # Replace with your package name
       package_source_main: "https://push.chocolatey.org/"
       package_source_test: "https://www.myget.org/F/public-choco-dev/api/v2/package"
+      run_tests: false # webdeploy is an MSI (installs msdeploy.exe); there is no `webdeploy version` command
     secrets:
       CHOCO_API_KEY: ${{ secrets.CHOCO_API_KEY }}
       MYGET_API_KEY: ${{ secrets.MYGET_API_KEY }}
