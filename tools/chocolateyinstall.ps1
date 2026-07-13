@@ -2,10 +2,10 @@
 $ErrorActionPreference = 'Stop';
 
 $packageName        = 'webdeploy'
-$url                = "https://download.microsoft.com/download/0/1/D/01DC28EA-638C-4A22-A57B-4CEF97755C6C/WebDeploy_x86_en-US.msi"
-$url64              = "https://download.microsoft.com/download/0/1/D/01DC28EA-638C-4A22-A57B-4CEF97755C6C/WebDeploy_amd64_en-US.msi"
-$checksum           = "9942825da7e31e8dc8c5d981930a375fe5533b361fbc9bfbce7226cb46432404"
-$checksum64         = "2150f9d1ab67e1b7b63559fb977ba9adc49f2b064fe2669a2e70d313a36b9a3d"
+$url                = "https://download.microsoft.com/download/WebDeploy_x86_en-US.msi"
+$url64              = "https://download.microsoft.com/download/webdeploy_amd64_en-US.msi"
+$checksum           = "8ef442ba16faadebe0f7e7862c5ddb8b21b9c6b36657d1cddc3e5aece4194a16"
+$checksum64         = "cd6228e4c947ccbdaea0331a7f2a66b8c523664e55471478c2c0664f6bcefe92"
 
 
 $packageArgs = @{

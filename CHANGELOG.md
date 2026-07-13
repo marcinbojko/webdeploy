@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-07-13 Build 4.0.20260713
+
+- fixed download URLs and checksums: build 4.0.20250813 still pointed at the old v3.6 GUID URLs, so it installed Web Deploy 3.6 despite the 4.0 version number (reported on the Chocolatey package page)
+- now downloads Web Deploy 4.0 (internal version 10.0.2001) from the current Microsoft Download Center links
+- URL - WebDeploy_x86_en-US.msi - <https://download.microsoft.com/download/WebDeploy_x86_en-US.msi>
+- URL - webdeploy_amd64_en-US.msi - <https://download.microsoft.com/download/webdeploy_amd64_en-US.msi>
+- SHA256 - WebDeploy_x86_en-US.msi - 8ef442ba16faadebe0f7e7862c5ddb8b21b9c6b36657d1cddc3e5aece4194a16
+- SHA256 - webdeploy_amd64_en-US.msi - cd6228e4c947ccbdaea0331a7f2a66b8c523664e55471478c2c0664f6bcefe92
+
 ## 2025-08-13 Build 4.0.20250813
 
 - updated to Web Deploy 4.0 (internal version 10.0.2001, released 2025-08-13)

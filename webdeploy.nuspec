@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>webdeploy</id>
     <title>Web Deployment Tool</title>
-    <version>4.0.20250813</version>
+    <version>4.0.20260713</version>
     <authors>Microsoft</authors>
     <owners>Marcin Bojko</owners>
     <summary>The Web Deployment Tool simplifies migration, management and deployment of IIS Web servers, Web applications and Web sites.</summary>
